@@ -1,0 +1,37 @@
+﻿  SparseVoxelOctrees.cpp
+  Unknown compiler version - please run the configure tests and report the results
+e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(69): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(69): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'const unsigned long', possible loss of data
+e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(78): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>::size_type'
+          with
+          [
+              _Ty=boost::random::detail::polynomial_ops::digit_t
+          ]
+  e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(78): note: consider using '%zd' in the format string
+e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(82): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>::size_type'
+          with
+          [
+              _Ty=boost::random::detail::polynomial_ops::digit_t
+          ]
+  e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(82): note: consider using '%zd' in the format string
+e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(83): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'const unsigned __int64'
+  e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(83): note: consider using '%zd' in the format string
+e:\lib\boost_1_64_0\boost\dynamic_bitset\dynamic_bitset.hpp(298): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+  e:\lib\boost_1_64_0\boost\dynamic_bitset\dynamic_bitset.hpp(297): note: while compiling class template member function 'boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>::reference boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>::operator [](boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>::size_type)'
+          with
+          [
+              _Ty=boost::random::detail::polynomial_ops::digit_t
+          ]
+  e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(54): note: see reference to function template instantiation 'boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>::reference boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>::operator [](boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>::size_type)' being compiled
+          with
+          [
+              _Ty=boost::random::detail::polynomial_ops::digit_t
+          ]
+  e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(23): note: see reference to class template instantiation 'boost::dynamic_bitset<unsigned long,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=boost::random::detail::polynomial_ops::digit_t
+          ]
+  SparseVoxelOctrees.vcxproj -> E:\projects\mine\SparseVoxelOctrees\x64\Debug\SparseVoxelOctrees.exe

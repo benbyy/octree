@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  SparseVoxelOctrees.cpp
+  Unknown compiler version - please run the configure tests and report the results
+e:\projects\mine\sparsevoxeloctrees\sparsevoxeloctrees\sparsevoxeloctrees.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+SparseVoxelOctrees.obj : error LNK2019: unresolved external symbol "public: __thiscall boost::random::random_device::random_device(void)" (??0random_device@random@boost@@QAE@XZ) referenced in function "double __cdecl GetRandomFloat(void)" (?GetRandomFloat@@YANXZ)
+SparseVoxelOctrees.obj : error LNK2019: unresolved external symbol "public: __thiscall boost::random::random_device::~random_device(void)" (??1random_device@random@boost@@QAE@XZ) referenced in function "double __cdecl GetRandomFloat(void)" (?GetRandomFloat@@YANXZ)
+SparseVoxelOctrees.obj : error LNK2019: unresolved external symbol "public: unsigned int __thiscall boost::random::random_device::operator()(void)" (??Rrandom_device@random@boost@@QAEIXZ) referenced in function "public: void __thiscall boost::random::random_device::generate<unsigned int *>(unsigned int *,unsigned int *)" (??$generate@PAI@random_device@random@boost@@QAEXPAI0@Z)
+E:\lib\boost_1_64_0\lib64-msvc-14.1\libboost_random-vc141-mt-gd-1_64.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\lib\boost_1_64_0\lib64-msvc-14.1\libboost_system-vc141-mt-gd-1_64.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\projects\mine\SparseVoxelOctrees\Debug\SparseVoxelOctrees.exe : fatal error LNK1120: 3 unresolved externals
